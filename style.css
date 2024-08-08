@@ -1,0 +1,301 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Syncopate:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Syncopate:wght@400;700&family=Syne:wght@400..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&family=Syncopate:wght@400;700&family=Syne:wght@400..800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #070707;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    height: 90vh;
+    width: 90vw;
+    display: flex;
+    justify-content: space-between;
+}
+.main-list{
+    height: 100%;
+    width: 30%;
+    background-color: #121212;
+    border-radius: 20px;
+    border: 1px solid #323232;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+.empty{
+    width: 95%;
+    color: rgb(148, 148, 148);
+    font-family: "Syne", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    font-size: 1.2em;
+    
+}
+.add-note{
+    position: absolute;
+    top: 85%;
+    right: 10%;
+    height: 70px;
+    width: 70px;
+    background-color: #FFE661;
+    border: none;
+    border-radius: 10px;
+    font-size: 35px;
+
+}
+.logo-name{
+    width: 90%;
+    height: max-content;
+    margin: 20px;
+    height: 50px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.logo-img{
+    height: 40px;
+    width: 40px;
+    background-image: url("media/pencil.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 15px 0 20px;
+}
+.name-font{
+    color: white;
+    font-size: 1.7em;
+    font-family: "Syncopate", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.search-box{
+    width: 90%;
+    margin-top: 10px;
+    font-weight: 700;
+    font-style: normal;
+}
+.search-field{
+    background-color: #323232;
+    width: 100%;
+    height: 60px;
+    border-radius: 8px;
+    font-family: "Syncopate", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: white;
+    padding-left: 20px;
+    box-sizing: border-box;
+    border: none;
+}
+.scroll-main-content{
+    height: max-content;
+    width: 91%;
+    margin: 10px 0 15px 0;
+    overflow: scroll;
+    
+
+    
+}
+::-webkit-scrollbar {
+    display: none;
+}
+.list-box{
+    height: max-content;
+    width: 99%;
+    margin-bottom: 10px;
+    background-color: #323232;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+.title-time{
+    width: 95%;
+}
+.title{
+    width: 100%;
+    font-family: "Syncopate", sans-serif;
+    font-weight: 700;
+    color: white;
+    font-style: normal;
+    font-size: 1.2em;
+    margin: 15px 0 0 0;
+}
+.time{
+    width: 100%;
+    color: rgb(158, 158, 158);
+    font-family: "Syncopate", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 0.7em;
+}
+.content{
+    width: 95%;
+    color: white;
+    font-family: "Syne", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    margin: 5px 0 15px 0;
+}
+.content-area{
+    height: 100%;
+    width: 69%;
+    background-color: #121212;
+    border-radius: 20px;
+    border: 1px solid #323232;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.big-logo-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo-img-big{
+    height: 50px;
+    width: 50px;
+    background-image: url("media/pencil.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 10px;
+}
+.name-font-big{
+    color: white;
+    font-size: 2em;
+    font-family: "Syncopate", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    margin-left: 10px;
+    
+}
+.buttom-details{
+    height: max-content;
+    position: absolute;
+    top: 90%;
+    left:70%;
+    display: flex;
+    align-items: center;
+    
+}
+.madebyrupam{
+    margin: 5px;
+    font-family: "Syne", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    color: white;
+}
+.portfolio-link{
+    color: white;
+}
+.devider{
+    height: 40px;
+    width: 1px;
+    background-color: white;
+    margin: 10px;
+}
+.github{
+    height: 30px;
+    width: 30px;
+    background-image: url("media/github.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 5px;
+}
+.linkedin{
+    height: 30px;
+    width: 30px;
+    background-image: url("media/linkedin.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 5px;
+}
+.content-box{
+    height: 90%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title-date{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    
+}
+input:focus {
+    outline: none;
+}
+.title-content::placeholder{
+    color: rgb(179, 179, 179);
+}
+.title-content{
+    font-family: "Syne", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: white;
+    font-size: 2em;
+    color: white;
+    box-sizing: border-box;
+    border: none;
+    background-color: transparent;
+    width: 90%;
+    margin-right: 20px;
+    
+}
+.date-content{
+    color: rgb(158, 158, 158);
+    font-family: "Syncopate", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 0.7em;
+    margin-top: 20px;
+    
+
+}
+.devider-title{
+    width: 100%;
+    height: 1px;
+    background-color: rgb(65, 65, 65);
+    margin: 20px;
+}
+.main-texts{
+    width: 95%;
+    font-size: 1em;
+    border: none;
+    background-color: transparent;
+    resize: none;
+    height: 100%;
+    color: white;
+    font-family: "Syne", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+.main-texts:focus {
+    outline: none; /* Removes the default outline/border */
+  }
+
+  .hide{
+    display: none;
+  }
+
+
+
